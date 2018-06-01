@@ -49,8 +49,13 @@
         <button class="bg-custom-blue" type="button" name="quizbutton" id="start">Take the Quiz</button>
       </div>
       <div class="quiz">
-        <p class="quizintrotext">Still not sure what track is right for you? Click the button below to take a short quiz and get matched up with an upcoming track.</p>
         <form id="quizform">
+          <p class="quizintrotext">Enter your name in the text box below <span class="optional">(optional)</span> and answer the first question to move on to question #2.</p>
+            <div class="form-group">
+              <label for="name">Enter Full Name Here:</label>
+              <input id="namebox" class="form-control" type="text">
+            </div>
+
           <div id="question1" class="questionbox">
             <p><strong>1.</strong> Do you consider yourself a creative person?</p>
             <div class="radio">
@@ -136,7 +141,7 @@
             <p><strong>4.</strong> Do you consider yourself a creative person?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="q4" value="1" checked>
+                <input type="radio" name="q4" value="1">
                 Ruby/Rails
               </label>
             </div>
@@ -163,25 +168,25 @@
             <p><strong>5.</strong> Do you consider yourself a creative person?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="q5" value="3" checked>
+                <input type="radio" name="q5" value="3">
                 C#/.NET
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="q5" value="1" checked>
+                <input type="radio" name="q5" value="1">
                 Ruby/Rails
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="q5" value="2" checked>
+                <input type="radio" name="q5" value="2">
                 CSS/React
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="q5" value="0" checked>
+                <input type="radio" name="q5" value="0">
                 I Hate Fun
               </label>
             </div>
@@ -192,6 +197,7 @@
       <div class="result">
 
       </div>
+      <span class="namespan"></span>
     </div>
   </div>
   <div class="footer">

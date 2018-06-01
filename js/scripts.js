@@ -33,18 +33,24 @@ $(document).ready(function() {
   var q3 = parseInt($("input:radio[name=q3]:checked").val());
   var q4 = parseInt($("input:radio[name=q4]:checked").val());
   var q5 = parseInt($("input:radio[name=q5]:checked").val());
+  var name = $("input#namebox").val();
 
 
   if (add(q1, q2, q3, q4, q5) <= 2) {
     $('.result').text("Programming isn't for you");
+    $('.namespan').append(name);
   } else if (add(q1, q2, q3, q4, q5) <= 7 ) {
     $('.result').text("Ruby/Rails");
+    $('.namespan').append(name);
   } else if (add(q1, q2, q3, q4, q5) <= 12) {
     $('.result').text("CSS/React");
+    $('.namespan').append(name);
   } else if (add(q1, q2, q3, q4, q5) <= 15) {
     $('.result').text("C#/.NET");
+    $('.namespan').append(name);
   } else {
-    $('.result').text("Programming isn't for you");;
+    $('.result').text("Programming isn't for you");
+    $('.namespan').append(name);
   }
 
   event.preventDefault();
