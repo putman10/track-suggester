@@ -35,9 +35,11 @@ $(document).ready(function() {
   var q5 = parseInt($("input:radio[name=q5]:checked").val());
 
 
-  if (add(q1, q2, q3, q4, q5) <= 7) {
+  if (add(q1, q2, q3, q4, q5) <= 2) {
+    $('.result').text("Programming isn't for you");
+  } else if (add(q1, q2, q3, q4, q5) <= 7 ) {
     $('.result').text("Ruby/Rails");
-  } else if (add(q1, q2, q3, q4, q5) <= 12 ) {
+  } else if (add(q1, q2, q3, q4, q5) <= 12) {
     $('.result').text("CSS/React");
   } else if (add(q1, q2, q3, q4, q5) <= 15) {
     $('.result').text("C#/.NET");
