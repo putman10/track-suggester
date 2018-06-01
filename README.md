@@ -11,7 +11,7 @@ _{This is a website to show off my css, HTML javascript and jQuery skills. The m
 ## Setup/Installation Requirements
 
 * _[Here](https://github.com/putman10/track-suggester.git) is the link to Ryan's repository._
-* _[Here](https://github.com) is the link to Ryan's live site._
+* _[Here](https://putman10.github.io/track-suggester/) is the link to Ryan's live site._
 
 
 ## Support and contact details
