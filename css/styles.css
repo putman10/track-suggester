@@ -189,6 +189,12 @@ button {
     display: block;
     margin: 0 auto;
     width: 300px;
+    padding: 10px 0;
+}
+
+.result h2 {
+    background: #4556c8;
+    color: white;
 }
 
 @media (min-width: 768px) {
