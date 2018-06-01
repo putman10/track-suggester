@@ -123,16 +123,18 @@ a:hover {
   background: grey;
   padding: 10px;
   margin-top: 2rem;
+  text-align: center;
 }
 
 .quizintrotext {
   color: white;
-  text-align: center;
 }
+
 
 .questionbox {
   background: white;
   padding: 5px;
+  text-align: left;
   margin-bottom: 10px;
   display: none;
 }
@@ -141,6 +143,9 @@ a:hover {
   display: block;
 }
 
+#submit {
+  display: none;
+}
 button {
   color:white;
 }
