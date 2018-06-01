@@ -37,20 +37,21 @@ $(document).ready(function() {
 
 
   if (add(q1, q2, q3, q4, q5) <= 2) {
-    $('.result').text("Programming isn't for you");
-    $('.namespan').append(name);
+    $('.result').html('<img src="img/wrong-fit.gif" alt="shaking finger">' + "I'm Sorry " + '<span class="namespan"></span>,' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere" );
+    $('.namespan').text(name);
+    $(".result").slideDown();
   } else if (add(q1, q2, q3, q4, q5) <= 7 ) {
     $('.result').text("Ruby/Rails");
-    $('.namespan').append(name);
+    $('.namespan').text(name);
   } else if (add(q1, q2, q3, q4, q5) <= 12) {
     $('.result').text("CSS/React");
-    $('.namespan').append(name);
+    $('.namespan').text(name);
   } else if (add(q1, q2, q3, q4, q5) <= 15) {
     $('.result').text("C#/.NET");
-    $('.namespan').append(name);
+    $('.namespan').text(name);
   } else {
     $('.result').text("Programming isn't for you");
-    $('.namespan').append(name);
+    $('.namespan').text(name);
   }
 
   event.preventDefault();

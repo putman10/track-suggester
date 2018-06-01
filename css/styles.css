@@ -173,6 +173,24 @@ button {
   color:white;
 }
 
+.namespan {
+  font-weight: bold;
+}
+
+.result{
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    border: 5px black dashed;
+    display: none;
+}
+
+.result img{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
 @media (min-width: 768px) {
   #rightheaderbox {
     text-align: center
