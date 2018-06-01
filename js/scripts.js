@@ -35,14 +35,14 @@ $(document).ready(function() {
   var q5 = parseInt($("input:radio[name=q5]:checked").val());
 
 
-  if (add(q1, q2, q3, q4, q5) >= 9) {
+  if (add(q1, q2, q3, q4, q5) <= 7) {
     $('.result').text("Ruby/Rails");
-  } else if (add(q1, q2, q3, q4, q5) >= 6 ) {
+  } else if (add(q1, q2, q3, q4, q5) <= 12 ) {
     $('.result').text("CSS/React");
-  } else if (add(q1, q2, q3, q4, q5) === 5) {
+  } else if (add(q1, q2, q3, q4, q5) <= 15) {
     $('.result').text("C#/.NET");
   } else {
-    $('.result').text("Answer all the questions");;
+    $('.result').text("Programming isn't for you");;
   }
 
   event.preventDefault();
