@@ -120,10 +120,37 @@ a:hover {
 
 .quiz{
   display: none;
+  background: grey;
+  padding: 10px;
+  margin-top: 2rem;
+}
+
+.quizintrotext {
+  color: white;
+  text-align: center;
+}
+
+.questionbox {
+  background: white;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.questionbox:first-of-type {
+  display: block;
 }
 
 button {
   color:white;
+}
+
+.bg-custom-blue {
+  background-color: #4556c8;
+}
+
+.bg-custom-blue:hover {
+  background-color: #00b3b4;;
 }
 
 @media (min-width: 768px) {
