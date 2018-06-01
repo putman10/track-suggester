@@ -49,6 +49,16 @@ a:hover {
   color:#00b3b4;
 }
 
+.mainheader {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.banner {
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 768px) {
   #rightheaderbox {
     text-align: center
