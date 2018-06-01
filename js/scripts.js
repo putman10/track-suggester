@@ -4,27 +4,27 @@ function add(q1, q2, q3, q4, q5) {
 
 $(document).ready(function() {
   $("#start").click(function() {
-    $(".quiz").show();
+    $(".quiz").slideDown();
   });
 
   $("#question1").change(function() {
-    $("#question2").show();
+    $("#question2").slideDown();
   });
 
   $("#question2").change(function() {
-    $("#question3").show();
+    $("#question3").slideDown();
   });
 
   $("#question3").change(function() {
-    $("#question4").show();
+    $("#question4").slideDown();
   });
 
   $("#question4").change(function() {
-    $("#question5").show();
+    $("#question5").slideDown();
   });
 
   $("#question5").change(function() {
-    $("#submit").show();
+    $("#submit").slideDown();
   });
 
   $("form#quizform").submit(function(event) {
