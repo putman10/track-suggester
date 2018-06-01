@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
   $("#start").click(function() {
-    $(".quiz").text("Goodbye!");
+    $(".quiz").show();
   });
 
 
