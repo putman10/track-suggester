@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a website to show off my css, HTML javascript and jQuery skills. The main focus will be providing users with a quiz like selector to determine the best programming languages for them to learn based on their interests and career trajectory.}_
+_This is a website to show off my css, HTML javascript and jQuery skills. The main focus will be providing users with a quiz like selector to determine the best programming languages for them to learn based on their interests and career trajectory._
 
 ## Setup/Installation Requirements
 
