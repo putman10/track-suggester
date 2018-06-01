@@ -197,6 +197,19 @@ button {
     color: white;
 }
 
+.resulttrack {
+  padding: 5px;
+  border: 1px solid black;
+  background-image: url(../img/terrazzo.png);
+  background-attachment: fixed;
+  background-position: bottom;
+  max-width: 245px;
+  margin: 13px auto;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+}
+
 @media (min-width: 768px) {
   #rightheaderbox {
     text-align: center

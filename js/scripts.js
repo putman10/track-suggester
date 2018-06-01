@@ -39,11 +39,11 @@ $(document).ready(function() {
   if (add(q1, q2, q3, q4, q5) <= 2) {
     $('.result').html("<h2>Quiz Results</h2>" + '<img src="img/wrong-fit.gif" alt="shaking finger">' + "I'm sorry " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
   } else if (add(q1, q2, q3, q4, q5) <= 7 ) {
-      $('.result').html("<h2>Quiz Results Ruby Rails</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
+      $('.result').html("<h2>Quiz Results</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + '<p class="resulttrack">Ruby/Rails</p>' + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
   } else if (add(q1, q2, q3, q4, q5) <= 12) {
-      $('.result').html("<h2>Quiz Results CSS/React</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
+      $('.result').html("<h2>Quiz Results</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + '<p class="resulttrack">CSS/React</p>' + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
   } else if (add(q1, q2, q3, q4, q5) <= 15) {
-      $('.result').html("<h2>Quiz Results C#/.NET</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
+      $('.result').html("<h2>Quiz Results</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + '<p class="resulttrack">C#/.NET</p>' + "C# is most popular among bigger established businesses, often for building internal software. You like the idea of working for a larger company on business software. C# is a going to be a great choice." );
   } else {
     $('.result').html("<h2>Quiz Results</h2>" + '<img src="img/wrong-fit.gif" alt="shaking finger">' + "I'm sorry " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
   }
