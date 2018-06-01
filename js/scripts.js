@@ -38,27 +38,23 @@ $(document).ready(function() {
 
   if (add(q1, q2, q3, q4, q5) <= 2) {
     $('.result').html("<h2>Quiz Results</h2>" + '<img src="img/wrong-fit.gif" alt="shaking finger">' + "I'm sorry " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
-      if(name === '') {
-        $('.namespan').text("student");
-      }
-      else {
-        $('.namespan').text(name);
-      }
-    $(".result").slideDown();
   } else if (add(q1, q2, q3, q4, q5) <= 7 ) {
-    $('.result').text("Ruby/Rails");
-    $('.namespan').text(name);
+      $('.result').html("<h2>Quiz Results Ruby Rails</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
   } else if (add(q1, q2, q3, q4, q5) <= 12) {
-    $('.result').text("CSS/React");
-    $('.namespan').text(name);
+      $('.result').html("<h2>Quiz Results CSS/React</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
   } else if (add(q1, q2, q3, q4, q5) <= 15) {
-    $('.result').text("C#/.NET");
-    $('.namespan').text(name);
+      $('.result').html("<h2>Quiz Results C#/.NET</h2>" + '<img src="img/dog-good-fit.gif" alt="dog celebrating">' + "Congratulations " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
   } else {
-    $('.result').text("Programming isn't for you");
-    $('.namespan').text(name);
+    $('.result').html("<h2>Quiz Results</h2>" + '<img src="img/wrong-fit.gif" alt="shaking finger">' + "I'm sorry " + '<span class="namespan"></span>!' + "<br>" + "It looks like you would rather be doing something other than programming. No worries your passions lie elsewhere." );
   }
 
+  if(name === '') {
+    $('.namespan').text("Mystery Person");
+  }
+  else {
+    $('.namespan').text(name);
+  }
+  $(".result").slideDown();
   event.preventDefault();
   });
 });
