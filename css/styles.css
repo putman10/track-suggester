@@ -111,6 +111,12 @@ a:hover {
   color: #4556c8;
 }
 
+.quizstartbutton {
+  text-align: center;
+  font-weight: bold;
+  color: #00b3b4;
+}
+
 @media (min-width: 768px) {
   #rightheaderbox {
     text-align: center
